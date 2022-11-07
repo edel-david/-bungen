@@ -3,7 +3,7 @@
 void collatz(int number)
 {
     
-    while (number != 1 & number != 0 & number != -1 & number != -5 & number != -17)
+    while (number != 1 && number != 0 && number != -1 && number != -5 && number != -17)
     
     {
         std::cout << number << std::endl;
