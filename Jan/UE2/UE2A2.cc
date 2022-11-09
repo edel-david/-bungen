@@ -32,6 +32,7 @@ int main(int argc, char **argv)
     }
     cout << "Die Summe ist: " << fibonacci(number) << endl;
     // je größer die Zahl N desto länger dauert es die Fibonaccizahlen auszurechnen
+    // langsam ab N > 40
 
     return 0;
 }
