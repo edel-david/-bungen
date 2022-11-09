@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+
 int iterative(int q, int n)
 {
     int erg = 1;
