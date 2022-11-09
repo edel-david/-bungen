@@ -3,7 +3,7 @@
 void collatz(int number)
 {
     
-    while (number != 1 && number != 0 && number != -1 && number != -5 && number != -17)
+    while (number != 1 && number != 0 && number != -1 && number != -5 && number != -17) // funktion endet sobalt nummer eine der Zahlen ist
     
     {
         std::cout << number << std::endl;
@@ -25,5 +25,6 @@ int main()
     std::cout << "gib eine Nummer ein: " << std::endl;
     std::cin >> num ;
     collatz(num);
+    return 0;
 }
 
