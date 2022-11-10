@@ -48,9 +48,9 @@ int main(int argc, char **argv)
 {
     int n, q;
     std::cout << "Geben Sie n ein: " << std::endl;
-    cin >> n;
+    std::cin >> n;
     std::cout << "Geben Sie q ein: " << std::endl;
-    cin >> q;
+    std::cin >> q;
 
     std::cout << "Das Ergebnis ist (iterative) " << iterative(n, q) << std::endl;
     std::cout << "Das Ergebnis ist (recursive) " << recursive(n, q) << std::endl;
