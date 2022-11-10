@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int fibonacci(int number)
 {
     if (number == 0)
@@ -20,17 +18,17 @@ int fibonacci(int number)
 
 int main(int argc, char **argv)
 {
-    int number, r;
+    unsigned long long int number, r;
     int n = 0;
-    cout << "Gebe eine Nummer ein: " << flush;
-    cin >> number;
+    std::cout << "Gebe eine Nummer ein: " << std::flush;
+    std::cin >> number;
     while (n < number)
     {
         r = fibonacci(n);
-        cout << r << endl;
+        std::cout << r << std::endl;
         n = n + 1;
     }
-    cout << "Die Summe ist: " << fibonacci(number) << endl;
+    std::cout << "Die Summe ist: " << fibonacci(number) << std::endl;
     // je größer die Zahl N desto länger dauert es die Fibonaccizahlen auszurechnen
     // langsam ab N > 40
 
